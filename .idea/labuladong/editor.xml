@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="LeetcodeEditorlabuladong">
+    <option name="projectConfig">
+      <map>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[24]Swap Nodes in Pairs.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/en/doc/content/[24]Swap Nodes in Pairs.md" />
+              <option name="frontendQuestionId" value="leetcode.com24" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[24]Swap Nodes in Pairs.java" />
+              <option name="titleSlug" value="swap-nodes-in-pairs" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[61]Rotate List.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/en/doc/content/[61]Rotate List.md" />
+              <option name="frontendQuestionId" value="leetcode.com61" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[61]Rotate List.java" />
+              <option name="titleSlug" value="rotate-list" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[82]Remove Duplicates from Sorted List II.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/en/doc/content/[82]Remove Duplicates from Sorted List II.md" />
+              <option name="frontendQuestionId" value="leetcode.com82" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[82]Remove Duplicates from Sorted List II.java" />
+              <option name="titleSlug" value="remove-duplicates-from-sorted-list-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
