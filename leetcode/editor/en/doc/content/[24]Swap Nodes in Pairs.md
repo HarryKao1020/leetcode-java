@@ -51,7 +51,7 @@
 
 <div id="labuladong"><hr>
 
-**通知：已完成网站教程、网站习题、配套插件中所有多语言代码的校准，解决了之前 chatGPT 翻译可能出错的问题~**
+**通知：网站新增大量习题，新增排序算法专题及可视化，具体请查看 [网站更新日志](https://labuladong.online/algo/changelog/website/)~**
 
 <details><summary><strong>labuladong 思路</strong></summary>
 
@@ -66,8 +66,6 @@
 其实前文 [如何 `k` 个一组反转链表](https://labuladong.online/algo/data-structure/reverse-linked-list-recursion/) 中讲过的 [25. K 个一组翻转链表](/problems/reverse-nodes-in-k-group) 就是这道题的进阶版，你可以去做一做。
 
 </div>
-
-**标签：单链表，递归**
 
 <div id="solution">
 
@@ -90,7 +88,7 @@
 
 ```cpp
 // 注意：cpp 代码由 chatGPT🤖 根据我的 java 代码翻译。
-// 本代码的正确性已通过力扣验证，但可能缺失注释。必要时请对照我的 java 代码查看。
+// 本代码的正确性已通过力扣验证，如有疑问，可以对照我的 java 代码查看。
 
 class Solution {
 public: // Ensure that swapPairs is public
@@ -119,7 +117,7 @@ public: // Ensure that swapPairs is public
 
 ```python
 # 注意：python 代码由 chatGPT🤖 根据我的 java 代码翻译。
-# 本代码的正确性已通过力扣验证，但可能缺失注释。必要时请对照我的 java 代码查看。
+# 本代码的正确性已通过力扣验证，如有疑问，可以对照我的 java 代码查看。
 
 # 定义：输入以 head 开头的单链表，将这个单链表中的每两个元素翻转，
 # 返回翻转后的链表头结点
@@ -169,7 +167,7 @@ class Solution {
 
 ```go
 // 注意：go 代码由 chatGPT🤖 根据我的 java 代码翻译。
-// 本代码的正确性已通过力扣验证，但可能缺失注释。必要时请对照我的 java 代码查看。
+// 本代码的正确性已通过力扣验证，如有疑问，可以对照我的 java 代码查看。
 
 func swapPairs(head *ListNode) *ListNode {
     // 定义：输入以 head 开头的单链表，将这个单链表中的每两个元素翻转，
@@ -195,7 +193,7 @@ func swapPairs(head *ListNode) *ListNode {
 
 ```javascript
 // 注意：javascript 代码由 chatGPT🤖 根据我的 java 代码翻译。
-// 本代码的正确性已通过力扣验证，但可能缺失注释。必要时请对照我的 java 代码查看。
+// 本代码的正确性已通过力扣验证，如有疑问，可以对照我的 java 代码查看。
 
 // 定义：输入以 head 开头的单链表，将这个单链表中的每两个元素翻转，
 // 返回翻转后的链表头结点
@@ -219,8 +217,18 @@ var swapPairs = function(head) {
 </div></div>
 </div></div>
 
-<hr /><details open hint-container details><summary style="font-size: medium"><strong>🍭🍭 算法可视化 🍭🍭</strong></summary><div id="data_swap-nodes-in-pairs" data="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"></div><div class="resizable aspect-ratio-container" style="height: 100%;">
+<hr /><details open hint-container details><summary style="font-size: medium"><strong>🌟🌟 算法可视化 🌟🌟</strong></summary><div id="data_swap-nodes-in-pairs" data="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"></div><div class="resizable aspect-ratio-container" style="height: 100%;">
 <div id="iframe_swap-nodes-in-pairs"></div></div>
+</details><hr /><br />
+
+</div>
+
+</details>
+</div>
+
+
+
+wap-nodes-in-pairs"></div></div>
 </details><hr /><br />
 
 </div>
