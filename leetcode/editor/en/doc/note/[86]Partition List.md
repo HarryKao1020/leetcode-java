@@ -1,3 +1,21 @@
+# 86:Partition List
+
+## 題目:
+給定一個List, x為某節點,將小於x的node放在一個List,  
+比x大或等於x的放在另一個List,  
+最終將兩個List合併成一個List,大的排在小的後面
+
+### ex:
+原始List:[1,4,3,2,5,2], x = 3  
+List1 = [1,2,2] --> 都比3小  
+List2 = [4,3,5] --> 都大於等於3  
+
+## 解題：
+這邊一樣用虛擬頭節點  
+因為一個List拆成兩個List
+所以有兩個虛擬頭
+
+```java
 
 //leetcode submit region begin(Prohibit modification and deletion)
 /**
@@ -38,3 +56,5 @@ class Solution {
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
+
+```

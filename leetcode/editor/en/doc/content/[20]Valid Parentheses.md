@@ -55,7 +55,7 @@
 
 <div id="labuladong"><hr>
 
-**通知：网站新增大量习题，新增排序算法专题及可视化，具体请查看 [网站更新日志](https://labuladong.online/algo/changelog/website/)~**
+**通知：[网站会员](https://labuladong.online/algo/intro/site-vip/) 即将涨价，有需要可以尽快购买/续费，谢谢大家的支持~**
 
 <details><summary><strong>labuladong 思路</strong></summary>
 
@@ -137,7 +137,7 @@ boolean isValid(String str) {
 
 ```cpp
 // 注意：cpp 代码由 chatGPT🤖 根据我的 java 代码翻译。
-// 本代码的正确性已通过力扣验证，如有疑问，可以对照我的 java 代码查看。
+// 本代码的正确性已通过力扣验证，如有疑问，可以对照 java 代码查看。
 
 class Solution {
 public:
@@ -173,7 +173,7 @@ private:
 
 ```python
 # 注意：python 代码由 chatGPT🤖 根据我的 java 代码翻译。
-# 本代码的正确性已通过力扣验证，如有疑问，可以对照我的 java 代码查看。
+# 本代码的正确性已通过力扣验证，如有疑问，可以对照 java 代码查看。
 
 class Solution:
     def isValid(self, str: str) -> bool:
@@ -234,7 +234,7 @@ class Solution {
 
 ```go
 // 注意：go 代码由 chatGPT🤖 根据我的 java 代码翻译。
-// 本代码的正确性已通过力扣验证，如有疑问，可以对照我的 java 代码查看。
+// 本代码的正确性已通过力扣验证，如有疑问，可以对照 java 代码查看。
 
 func isValid(str string) bool {
     var left stack
@@ -297,7 +297,7 @@ func leftOf(c rune) rune {
 
 ```javascript
 // 注意：javascript 代码由 chatGPT🤖 根据我的 java 代码翻译。
-// 本代码的正确性已通过力扣验证，如有疑问，可以对照我的 java 代码查看。
+// 本代码的正确性已通过力扣验证，如有疑问，可以对照 java 代码查看。
 
 var isValid = function(str) {
     let left = [];
@@ -328,11 +328,17 @@ var leftOf = function(c) {
 </div></div>
 </div></div>
 
-<hr /><details open hint-container details><summary style="font-size: medium"><strong>🥳🥳 算法可视化 🥳🥳</strong></summary><div id="data_valid-parentheses" data="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" ></div><div class="resizable aspect-ratio-container" style="height: 100%;">
+<hr /><details open hint-container details><summary style="font-size: medium"><strong>🍭🍭 算法可视化 🍭🍭</strong></summary><div id="data_valid-parentheses" data="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" ></div><div class="resizable aspect-ratio-container" style="height: 100%;">
 <div id="iframe_valid-parentheses"></div></div>
 </details><hr /><br />
 
 </div>
+</details>
+</div>
+
+
+
+iv>
 </details>
 </div>
 
