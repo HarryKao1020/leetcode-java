@@ -74,12 +74,13 @@ Explanation: The two lists do not intersect, so return null.
 
 <div id="labuladong"><hr>
 
-**通知：网站新增大量习题，新增排序算法专题及可视化，具体请查看 [网站更新日志](https://labuladong.online/algo/changelog/website/)~**
+**通知：[网站会员](https://labuladong.online/algo/intro/site-vip/) 即将涨价，有需要可以尽快购买/续费，谢谢大家的支持~**
 
 
 
 <p><strong><a href="https://labuladong.online/algo/essential-technique/linked-list-skills-summary/" target="_blank">⭐️labuladong 题解</a></strong></p>
 <details><summary><strong>labuladong 思路</strong></summary>
+
 
 <div id="labuladong_solution_zh">
 
@@ -87,7 +88,7 @@ Explanation: The two lists do not intersect, so return null.
 
 这题难点在于，由于两条链表的长度可能不同，两条链表之间的节点无法对应：
 
-![](https://labuladong.online/algo/images/链表技巧/5.jpeg)
+![](https://labuladong.online/algo/images/linked-list-two-pointer/5.jpeg)
 
 如果用两个指针 `p1` 和 `p2` 分别在两条链表上前进，并不能**同时**走到公共节点，也就无法得到相交节点 `c1`。
 
@@ -97,14 +98,18 @@ Explanation: The two lists do not intersect, so return null.
 
 如果这样进行拼接，就可以让 `p1` 和 `p2` 同时进入公共部分，也就是同时到达相交节点 `c1`：
 
-![](https://labuladong.online/algo/images/链表技巧/6.jpeg)
+![](https://labuladong.online/algo/images/linked-list-two-pointer/6.jpeg)
 
 另一种思路，先计算两条链表的长度，然后让 `p1` 和 `p2` 距离链表尾部的距离相同，然后齐头并进，
 
-- **详细题解**：
+**详细题解**：
   - [双指针技巧秒杀七道链表题目](https://labuladong.online/algo/essential-technique/linked-list-skills-summary/)
 
 </div>
+
+
+
+
 
 <div id="solution">
 
@@ -127,7 +132,7 @@ Explanation: The two lists do not intersect, so return null.
 
 ```cpp
 // 注意：cpp 代码由 chatGPT🤖 根据我的 java 代码翻译。
-// 本代码的正确性已通过力扣验证，如有疑问，可以对照我的 java 代码查看。
+// 本代码的正确性已通过力扣验证，如有疑问，可以对照 java 代码查看。
 
 class Solution {
 public:
@@ -152,7 +157,7 @@ public:
 
 ```python
 # 注意：python 代码由 chatGPT🤖 根据我的 java 代码翻译。
-# 本代码的正确性已通过力扣验证，如有疑问，可以对照我的 java 代码查看。
+# 本代码的正确性已通过力扣验证，如有疑问，可以对照 java 代码查看。
 
 class Solution:
     def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> ListNode:
@@ -194,7 +199,7 @@ public class Solution {
 
 ```go
 // 注意：go 代码由 chatGPT🤖 根据我的 java 代码翻译。
-// 本代码的正确性已通过力扣验证，如有疑问，可以对照我的 java 代码查看。
+// 本代码的正确性已通过力扣验证，如有疑问，可以对照 java 代码查看。
 
 func getIntersectionNode(headA, headB *ListNode) *ListNode {
     // p1 指向 A 链表头结点，p2 指向 B 链表头结点
@@ -223,7 +228,7 @@ func getIntersectionNode(headA, headB *ListNode) *ListNode {
 
 ```javascript
 // 注意：javascript 代码由 chatGPT🤖 根据我的 java 代码翻译。
-// 本代码的正确性已通过力扣验证，如有疑问，可以对照我的 java 代码查看。
+// 本代码的正确性已通过力扣验证，如有疑问，可以对照 java 代码查看。
 
 var getIntersectionNode = function(headA, headB) {
     // p1 指向 A 链表头结点，p2 指向 B 链表头结点
@@ -243,12 +248,21 @@ var getIntersectionNode = function(headA, headB) {
 </div></div>
 </div></div>
 
-<hr /><details open hint-container details><summary style="font-size: medium"><strong>🌈🌈 算法可视化 🌈🌈</strong></summary><div id="data_intersection-of-two-linked-lists" data="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"></div><div class="resizable aspect-ratio-container" style="height: 100%;">
+<hr /><details open hint-container details><summary style="font-size: medium"><strong>🍭🍭 算法可视化 🍭🍭</strong></summary><div id="data_intersection-of-two-linked-lists" data="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" ></div><div class="resizable aspect-ratio-container" style="height: 100%;">
 <div id="iframe_intersection-of-two-linked-lists"></div></div>
 </details><hr /><br />
 
 </div>
-
 </details>
 </div>
+
+
+
+
+
+
+
+
+
+
 

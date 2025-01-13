@@ -30,12 +30,13 @@
 
 <div id="labuladong"><hr>
 
-**通知：网站新增大量习题，新增排序算法专题及可视化，具体请查看 [网站更新日志](https://labuladong.online/algo/changelog/website/)~**
+**通知：[网站会员](https://labuladong.online/algo/intro/site-vip/) 即将涨价，有需要可以尽快购买/续费，谢谢大家的支持~**
 
 
 
 <p><strong><a href="https://labuladong.online/algo/essential-technique/array-two-pointers-summary/" target="_blank">⭐️labuladong 题解</a></strong></p>
 <details><summary><strong>labuladong 思路</strong></summary>
+
 
 <div id="labuladong_solution_zh">
 
@@ -43,12 +44,16 @@
 
 思路和 [26. 删除有序数组中的重复项](/problems/remove-duplicates-from-sorted-array) 完全一样，唯一的区别是把数组赋值操作变成操作指针而已。
 
-![](https://labuladong.online/algo/images/数组去重/2.gif)
+![](https://labuladong.online/algo/images/array-dedup/2.gif)
 
-- **详细题解**：
+**详细题解**：
   - [双指针技巧秒杀七道数组题目](https://labuladong.online/algo/essential-technique/array-two-pointers-summary/)
 
 </div>
+
+
+
+
 
 <div id="solution">
 
@@ -71,22 +76,37 @@
 
 ```cpp
 // 注意：cpp 代码由 chatGPT🤖 根据我的 java 代码翻译。
-// 本代码暂未通过力扣的验证，如有错误，请参照我写的 java 代码对比查看。我正在手动验证这部分代码...
+// 本代码的正确性已通过力扣验证，如有疑问，可以对照 java 代码查看。
 
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
+ */
 class Solution {
 public:
-    ListNode* deleteDuplicates(ListNode* head) {  // 删除链表中重复的元素
-        if (head == NULL) return NULL;  // 如果链表为空，直接返回NULL
-        ListNode *slow = head, *fast = head;  // 定义快慢指针，初始都指向头结点
-        while (fast != NULL) {  // 只要快指针没有遍历完整个链表
-            if (fast->val != slow->val) {  // 快慢指针值不同
-                slow->next = fast;  // 慢指针连接新节点
-                slow = slow->next;  // 慢指针向后移动一位
+    ListNode* deleteDuplicates(ListNode* head) {
+        if (head == nullptr) return nullptr;
+        ListNode* slow = head;
+        ListNode* fast = head;
+        while (fast != nullptr) {
+            if (fast->val != slow->val) {
+                // nums[slow] = nums[fast];
+                slow->next = fast;
+                // slow++;
+                slow = slow->next;
             }
-            fast = fast->next;  // 快指针向后移动一位
+            // fast++
+            fast = fast->next;
         }
-        slow->next = NULL;  // 断开与后面重复元素的连接
-        return head;  // 返回头结点
+        // 断开与后面重复元素的连接
+        slow->next = nullptr;
+        return head;
     }
 };
 ```
@@ -97,15 +117,15 @@ public:
 
 ```python
 # 注意：python 代码由 chatGPT🤖 根据我的 java 代码翻译。
-# 本代码暂未通过力扣的验证，如有错误，请参照我写的 java 代码对比查看。我正在手动验证这部分代码...
+# 本代码的正确性已通过力扣验证，如有疑问，可以对照 java 代码查看。
 
 class Solution:
     def deleteDuplicates(self, head: ListNode) -> ListNode:
-        if head == None:
+        if head is None:
             return None
         slow = head
         fast = head
-        while fast != None:
+        while fast is not None:
             if fast.val != slow.val:
                 # nums[slow] = nums[fast];
                 slow.next = fast
@@ -124,7 +144,7 @@ class Solution:
 
 ```java
 class Solution {
-    public deleteDuplicates(ListNode head) {
+    public ListNode deleteDuplicates(ListNode head) {
         if (head == null) return null;
         ListNode slow = head, fast = head;
         while (fast != null) {
@@ -150,14 +170,14 @@ class Solution {
 
 ```go
 // 注意：go 代码由 chatGPT🤖 根据我的 java 代码翻译。
-// 本代码暂未通过力扣的验证，如有错误，请参照我写的 java 代码对比查看。我正在手动验证这部分代码...
+// 本代码的正确性已通过力扣验证，如有疑问，可以对照 java 代码查看。
 
 func deleteDuplicates(head *ListNode) *ListNode {
     if head == nil {
         return nil
     }
-
-    slow, fast := head, head
+    slow := head
+    fast := head
     for fast != nil {
         if fast.Val != slow.Val {
             // nums[slow] = nums[fast];
@@ -180,37 +200,43 @@ func deleteDuplicates(head *ListNode) *ListNode {
 
 ```javascript
 // 注意：javascript 代码由 chatGPT🤖 根据我的 java 代码翻译。
-// 本代码暂未通过力扣的验证，如有错误，请参照我写的 java 代码对比查看。我正在手动验证这部分代码...
+// 本代码的正确性已通过力扣验证，如有疑问，可以对照 java 代码查看。
 
-/**
- * @param {ListNode} head
- * @return {ListNode}
- */
 var deleteDuplicates = function(head) {
-  if (head === null) return null;
-  var slow = head;
-  var fast = head;
-  while (fast !== null) {
-    if (fast.val !== slow.val) {
-      // nums[slow] = nums[fast];
-      slow.next = fast;
-      // slow++;
-      slow = slow.next;
+    if (head === null) return null;
+    let slow = head, fast = head;
+    while (fast !== null) {
+        if (fast.val !== slow.val) {
+            // nums[slow] = nums[fast];
+            slow.next = fast;
+            // slow++;
+            slow = slow.next;
+        }
+        // fast++
+        fast = fast.next;
     }
-    // fast++
-    fast = fast.next;
-  }
-  // 断开与后面重复元素的连接
-  slow.next = null;
-  return head;
+    // 断开与后面重复元素的连接
+    slow.next = null;
+    return head;
 };
 ```
 
 </div></div>
 </div></div>
 
-<hr /><details open hint-container details><summary style="font-size: medium"><strong>🍭🍭 算法可视化 🍭🍭</strong></summary><div id="data_remove-duplicates-from-sorted-list" data="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"></div><div class="resizable aspect-ratio-container" style="height: 100%;">
+<hr /><details open hint-container details><summary style="font-size: medium"><strong>🌈🌈 算法可视化 🌈🌈</strong></summary><div id="data_remove-duplicates-from-sorted-list" data="G74sUZSJ0SlFUS4mOwCdB3aDcwtageOIBk1zMCL6xMk7+dO0NGOkdLj8V/40giRAW6Xvzf3VmNecVNVfUSnZ+j7G7macBZZgwAQYhtaZ6m3pIY5AaM16spCrDfWTBJvNdE0Q+PFr//vNFtUkNoh18yRmi/f3586881UR1713MfdKg0os5EaMQKVLxVMxKRUG0BAUaSi29mynVUJKJQRZj5wgVEzGEj3/0roXMHwRU6XouqXTffGSeIvfJmV+ckwktpFRv2HgmLnY4iU62JJJ9WxqqW2IGctbtWNK3Pd5U6v7F8Y1COJtemJUg/dJbNaYc4I9qY25xC7KqZ3S4bQJZYzy2bzGy4rIB83l1spv7+0LnXIdWkIgJA7hTsC/gfst5h5OfWiGWyam9/YHwWKG2cp3prWG7+vY4U5Z9G6TztXo44U9yCak2QNC/1PuPMcN3WOMSjJxzbbyPntuLS2HsDM4iJ+Rllkq5hBS/9xnc/LLSnFohHyo75HgzNPB/pF7txFF4EQStHZtCP3DSu3pwWlAKt/BjTdHT7QboeXsqoPCWfvzQmUI//mF8S2QNj3EuV0nLJN5RXMwp7kxacdwuzByUyuomSGNvf7hp2GZ1ioPBysdGY8OKU0fyHeCHGXczw2/LxCUXUFIZMkugc3YDdaGW8ciIC3QaQTc/E+qxvRoyiB7QZ14vSkNMU3xHGxSXxXTASUPFe/7MASy5fuvVJN/3qdspqoQfqDTynF0P8fO32f3Q5J+qsAVld6QXIdKbvMS7v99LXoHWPzIHhMBjY/3WnNKWk3AmPRfRjBuLMWse0x4SqEI11PjJKh2NMCfhR3znepaHuETY1hZvCjagQEf15rfJZBqrpd1wO3+htx4IYbq1Wb0OL/lvlXap3H4zb6O7MVokG5QtbxKW/c+MOPmMXbgtiZ76G9RTRdVhpe0GjwlUYBsGhdBtaMBfT1HOu5tBgsEPl8P7O4xxd9eIgNyQZB1j03fviQdDVDwDz80/HEL2GaQ2V7S2eApiQJU02AQ1PjIr0dGyyKQd883M2thTAKdaP6vhKvBS/LV+tCxe7rBsaHhW1M+EyEw4fYEHAtUxJx3elC+U/l/5bhz+KFFe98zvUhYVPvijbKiqYPtZR09KkgUb0zRDhxglZMtoWcyDvXg9ueNQYvRp+bkzqLimU0GYU445veEhOikU28N0+k/xzPxjGfjVZKTc0aJGtfkP7b5Mh3jHbGpnc0TFk8ewgqgiMXs/y10g0LTAIdELHQD0gkQYYcCdMAzWeK9dfPpnK4jPHJKkqoeZZJ1KiF7SY03V9VsayrbgKqK+mlsiTVdfvlR18U3U5SuY6vI7PxCHXIcf6Xdt2AIesl4Uw9b4xgGvyxj78kvJ3bS+ZUGosIvw4N3fo1eDsYvbe+YXr8OuR7ggfO/aGazFgCaZ8PCOfMyb5NmEMaQcz3RpxLxYvNS8KMny66FZ0dXFObFfA90b0E0J8ANOUXnlRF+yolstLRor1BOlsdSMM9lojVoYKIhWLeaSj8wU7AbrXKqP9DWQkL2pvTExg+LBbKF8RC9v8/5vOrI6m3ad3aWZUJIPS2pTK0U20BHxugpy2WEYmmhz064ug+MdHu4b738ElrKnulRriiFlvbU8aepKQQ9bZfGA5XNOCxRUPPycGUzDnPC4R46U3OJY6jtQ1AoQ+NoKUln7Qfk75ThmkmXyC8uXeHoaI2xKTcq5qKr1nJ84lysBEaUEY6Vq7iJpXG6OakXXeXpGZsjdPyi/4DAIHNQEkFTri9nYTTHTJZ0F/WC4jRlxWw0qTM9J46abzRaNZeVL9CKoRE6c+sQCxv9lQb57AkljbbM2TYE5Aj/6pjB3ct4hQyPuZBgjtfbKvgfUK8LmFe09uiEiV1znOgfTkIb3DqUx9JJPve08eY4cy02XDInkKx1AontsSvnXbvkkygMyeW5qnPyONOlurfK9QlZxDaWYKwytdZbue7QbIHHXP6lSKs+9DJ66Og4XPIrQjFBySW9DN2xt/8XZl+c7e/P0NWSJ/KDB2gWi/9zUfOJRB9rRTVHsEgLdGasOEzABA5nCOFEakVeiBSDCvyoEVx3oWOaKBlLA5dTw4ucPLcyZ3p8yPVL4/riLjxb7D5446r1kDto0TJ0BE4ttrXoAXfIy04TrkbKldVCt+f1gzvtEO0Zup4m2CArC9Eb270bZpDmQ8P5dmEp3kxomFNpriXF2BSFk/iVUd8zZSp3laEWIctjH2WL5+JcClE/FFfYpTYgj4cD4nc4IG2HA8J1OCBLw8O2yGwbQTK2AQHYDci5gC3O2oDUagPCqRuQQQFb1LQBidIGBEc3IB8CthhoA9KeDQh1bkB2AzKf7wZNHWEiqKUyBbjAUFKIK5U1QLLaHGAzi81XNgsKMU8GB4hBLu0DGEDhEUrhJZTCKyiF16EE5RlAKTxCKbyEUngNSlCedSiFByiFF1AKr6AU3oASlOccSuERKhGc0Jwpm8T/CYkgjcYKIMD6LEHGfbtMedb/oOZS8jU4GLNk8sklXZ3HZ+xaIZjQHBjcH1zdButlAf0XriMkYijEjUaqao9pcoH8VN0PAYMRR939Qf7/0s0jM0BUXJOJjZcStbuwwoRZI2qNp2ySXHPOcl83n9cEuga3hU3VnlnmpOHFA2zMAAW2cC6KriC+x3rRluNMVjN0IpDeaChtrCOjGf/kNlHAx+f99Dq8Df/sGy+K/LaP8nfrG/Jhg2hXZriaP5juvzbUQFl/lOCOVvDBK9uhRGJo6iDOU55/SBznLYaHzwCfWE/8NOjirMwprqvn8JeI/JuZg8FoMi1hWM0HtHyxYUOj2fyupBxnLBOmhaKZfX81u2UusVktTEN/a2GURfQ4VVVki5SM5dMdMDnULqNMi3JDSUN/y4i+bD6D" ></div><div class="resizable aspect-ratio-container" style="height: 100%;">
 <div id="iframe_remove-duplicates-from-sorted-list"></div></div>
+</details><hr /><br />
+
+</div>
+</details>
+</div>
+
+
+
+
+
+v></div>
 </details><hr /><br />
 
 </div>

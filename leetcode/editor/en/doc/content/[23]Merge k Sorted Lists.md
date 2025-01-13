@@ -54,7 +54,7 @@ merging them into one sorted list:
 
 
 
-<p><strong><a href="https://labuladong.online/algo/essential-technique/linked-list-skills-summary/" target="_blank">⭐️labuladong 题解</a></strong></p>
+<p><strong><a href="https://labuladong.online/algo/essential-technique/divide-and-conquer/" target="_blank">⭐️labuladong 题解</a></strong></p>
 <details><summary><strong>labuladong 思路</strong></summary>
 
 
@@ -301,6 +301,14 @@ var mergeKLists = function(lists) {
 </div>
 </details>
 </div>
+
+
+
+
+
+
+
+
 
 
 
