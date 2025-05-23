@@ -47,7 +47,7 @@
 
 <div id="labuladong"><hr>
 
-**通知：网站新增大量习题，新增排序算法专题及可视化，具体请查看 [网站更新日志](https://labuladong.online/algo/changelog/website/)~**
+**通知：为满足广大读者的需求，网站上架 [速成目录](https://labuladong.online/algo/intro/quick-learning-plan/)，如有需要可以看下，谢谢大家的支持~**
 
 
 
@@ -93,7 +93,7 @@
 
 ```cpp
 // 注意：cpp 代码由 chatGPT🤖 根据我的 java 代码翻译。
-// 本代码的正确性已通过力扣验证，如有疑问，可以对照我的 java 代码查看。
+// 本代码的正确性已通过力扣验证，如有疑问，可以对照 java 代码查看。
 
 class Solution {
 public:
@@ -122,7 +122,7 @@ public:
 
 ```python
 # 注意：python 代码由 chatGPT🤖 根据我的 java 代码翻译。
-# 本代码的正确性已通过力扣验证，如有疑问，可以对照我的 java 代码查看。
+# 本代码的正确性已通过力扣验证，如有疑问，可以对照 java 代码查看。
 
 class Solution:
     # 快慢指针初始化指向 head
@@ -172,7 +172,7 @@ public class Solution {
 
 ```go
 // 注意：go 代码由 chatGPT🤖 根据我的 java 代码翻译。
-// 本代码的正确性已通过力扣验证，如有疑问，可以对照我的 java 代码查看。
+// 本代码的正确性已通过力扣验证，如有疑问，可以对照 java 代码查看。
 
 func hasCycle(head *ListNode) bool {
     // 快慢指针初始化指向 head
@@ -198,7 +198,7 @@ func hasCycle(head *ListNode) bool {
 
 ```javascript
 // 注意：javascript 代码由 chatGPT🤖 根据我的 java 代码翻译。
-// 本代码的正确性已通过力扣验证，如有疑问，可以对照我的 java 代码查看。
+// 本代码的正确性已通过力扣验证，如有疑问，可以对照 java 代码查看。
 
 var hasCycle = function(head) {
     // 快慢指针初始化指向 head
@@ -221,11 +221,13 @@ var hasCycle = function(head) {
 </div></div>
 </div></div>
 
-<hr /><details open hint-container details><summary style="font-size: medium"><strong>👾👾 算法可视化 👾👾</strong></summary><div id="data_linked-list-cycle" data="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" ></div><div class="resizable aspect-ratio-container" style="height: 100%;">
+<hr /><details open hint-container details><summary style="font-size: medium"><strong>🥳🥳 算法可视化 🥳🥳</strong></summary><div id="data_linked-list-cycle" data="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" ></div><div class="resizable aspect-ratio-container" style="height: 100%;">
 <div id="iframe_linked-list-cycle"></div></div>
 </details><hr /><br />
 
 </div>
 </details>
 </div>
+
+
 

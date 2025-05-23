@@ -69,6 +69,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[167]Two Sum II - Input Array Is Sorted.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/en/doc/content/[167]Two Sum II - Input Array Is Sorted.md" />
+              <option name="frontendQuestionId" value="leetcode.com167" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[167]Two Sum II - Input Array Is Sorted.java" />
+              <option name="titleSlug" value="two-sum-ii-input-array-is-sorted" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[17]Letter Combinations of a Phone Number.java">
           <value>
             <LeetcodeEditor>
@@ -135,6 +146,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[234]Palindrome Linked List.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/en/doc/content/[234]Palindrome Linked List.md" />
+              <option name="frontendQuestionId" value="leetcode.com234" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[234]Palindrome Linked List.java" />
+              <option name="titleSlug" value="palindrome-linked-list" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[238]Product of Array Except Self.java">
           <value>
             <LeetcodeEditor>
@@ -176,6 +198,28 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2638]Count the Number of K-Free Subsets.java" />
               <option name="titleSlug" value="count-the-number-of-k-free-subsets" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[263]Ugly Number.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/en/doc/content/[263]Ugly Number.md" />
+              <option name="frontendQuestionId" value="leetcode.com263" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[263]Ugly Number.java" />
+              <option name="titleSlug" value="ugly-number" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[264]Ugly Number II.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/en/doc/content/[264]Ugly Number II.md" />
+              <option name="frontendQuestionId" value="leetcode.com264" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[264]Ugly Number II.java" />
+              <option name="titleSlug" value="ugly-number-ii" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -256,6 +300,39 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[3]Longest Substring Without Repeating Characters.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/en/doc/content/[3]Longest Substring Without Repeating Characters.md" />
+              <option name="frontendQuestionId" value="leetcode.com3" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[3]Longest Substring Without Repeating Characters.java" />
+              <option name="titleSlug" value="longest-substring-without-repeating-characters" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[48]Rotate Image.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/en/doc/content/[48]Rotate Image.md" />
+              <option name="frontendQuestionId" value="leetcode.com48" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[48]Rotate Image.java" />
+              <option name="titleSlug" value="rotate-image" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[54]Spiral Matrix.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/en/doc/content/[54]Spiral Matrix.md" />
+              <option name="frontendQuestionId" value="leetcode.com54" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[54]Spiral Matrix.java" />
+              <option name="titleSlug" value="spiral-matrix" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[572]Subtree of Another Tree.java">
           <value>
             <LeetcodeEditor>
@@ -264,6 +341,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[572]Subtree of Another Tree.java" />
               <option name="titleSlug" value="subtree-of-another-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[59]Spiral Matrix II.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/en/doc/content/[59]Spiral Matrix II.md" />
+              <option name="frontendQuestionId" value="leetcode.com59" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[59]Spiral Matrix II.java" />
+              <option name="titleSlug" value="spiral-matrix-ii" />
             </LeetcodeEditor>
           </value>
         </entry>

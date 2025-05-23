@@ -48,7 +48,7 @@
 
 <div id="labuladong"><hr>
 
-**通知：网站新增大量习题，新增排序算法专题及可视化，具体请查看 [网站更新日志](https://labuladong.online/algo/changelog/website/)~**
+**通知：为满足广大读者的需求，网站上架 [速成目录](https://labuladong.online/algo/intro/quick-learning-plan/)，如有需要可以看下，谢谢大家的支持~**
 
 
 
@@ -78,7 +78,7 @@
 
 **详细题解**：
   - [一个方法团灭 nSum 问题](https://labuladong.online/algo/practice-in-action/nsum/)
-  - [【强化练习】哈希表更多习题](https://labuladong.online/algo/problem-set/hash-table/)
+  - [【练习】哈希表更多习题](https://labuladong.online/algo/problem-set/hash-table/)
 
 </div>
 
@@ -107,7 +107,7 @@
 
 ```cpp
 // 注意：cpp 代码由 chatGPT🤖 根据我的 java 代码翻译。
-// 本代码的正确性已通过力扣验证，如有疑问，可以对照我的 java 代码查看。
+// 本代码的正确性已通过力扣验证，如有疑问，可以对照 java 代码查看。
 
 class Solution {
 public:
@@ -134,7 +134,7 @@ public:
 
 ```python
 # 注意：python 代码由 chatGPT🤖 根据我的 java 代码翻译。
-# 本代码的正确性已通过力扣验证，如有疑问，可以对照我的 java 代码查看。
+# 本代码的正确性已通过力扣验证，如有疑问，可以对照 java 代码查看。
 
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
@@ -179,7 +179,7 @@ class Solution {
 
 ```go
 // 注意：go 代码由 chatGPT🤖 根据我的 java 代码翻译。
-// 本代码的正确性已通过力扣验证，如有疑问，可以对照我的 java 代码查看。
+// 本代码的正确性已通过力扣验证，如有疑问，可以对照 java 代码查看。
 
 func twoSum(nums []int, target int) []int {
     // 维护 val -> index 的映射
@@ -203,7 +203,7 @@ func twoSum(nums []int, target int) []int {
 
 ```javascript
 // 注意：javascript 代码由 chatGPT🤖 根据我的 java 代码翻译。
-// 本代码的正确性已通过力扣验证，如有疑问，可以对照我的 java 代码查看。
+// 本代码的正确性已通过力扣验证，如有疑问，可以对照 java 代码查看。
 
 var twoSum = function(nums, target) {
     // 维护 val -> index 的映射
@@ -224,13 +224,15 @@ var twoSum = function(nums, target) {
 </div></div>
 </div></div>
 
-<hr /><details open hint-container details><summary style="font-size: medium"><strong>🍭🍭 算法可视化 🍭🍭</strong></summary><div id="data_two-sum" data="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" ></div><div class="resizable aspect-ratio-container" style="height: 100%;">
+<hr /><details open hint-container details><summary style="font-size: medium"><strong>🍭🍭 算法可视化 🍭🍭</strong></summary><div id="data_two-sum" data="G00yUZSTIQ0AWhdvDKjbCRdtZcSU1opa8VBOcPhq/E/B4nTFDCoSKzc48kg/LCqYhlxOqdg1+cCmPFVul2OZ8uc6Q1mgVgHqB1XKBspcLF0NwtKyc5quqtqUJxaxe3ElmCZANvCzRVe9gS2ONGHvtu+pwXkh180HlQi/3pZ5dZFgDlZHqwPcy/qAcqWzh2w75DFQqu3f/z8jQP/phTEhxnbmNHHoNFOqKLtypNEyphJPdazu88ORYojOq/HfReTdeIR1uzEqeBoc/D0GHhy6lx1GnD5X8p91jlWclWLiHqc328P1xXTuZf/7v22kjKpHi1+s15dMPEYsO+kp2mX5mV9293/irdsusGMd2vmvjAmn9SOyTB78UafjXC/bvIqomnfbtcjf6hKMZYKrFwzL8uajMA/O9Imubi6+IsFLu0D0h+7Vs55w1l7FF6NgoCaonnu4bl1zFXiuiHYeVt67uIu3z5IKXsYRos6IJb5YaSt6TriEZkJqB+SFv5H+K0ySmpwkMBgu6NTgi+Bo+gWMy6wRg+1XV7Elou+A2LZvXb4J+IX1+WolRDF10wXtUb406Lx0WRX57sRGj/hzXsLBXx3PPqOjQOw++6+lSGwXGuDLCsoWkTSfc9zFTufOXXpaTuJ5ifE4Kq1Gr0956WpLQa0obkLpSU4MEGCRMJxopSCCW92xkTO81D5UdnmdcAipOOySfcZm2RWauU92isCHyglPVNCqmPUAc5f8B09jbkJeqVfep1iBah2VVdTr8sJ6Hft2x1QeBQbvy21820/tq27YcpVftGgoc/DtAqNC7CLg2L3CpRHWTYN6lFfbZT/qwJc4BT/V+WOVLRpeWJqf5ECflV6NM1LreLYLt/ycdDQwJjuftfnncs8/WnTKHruIij8rrpvwSOt/uiB1Fq/lKSx1tJ687400vYr0lLBicqhITwmwWA4XQyvSO7ABOgxpDzOJkvCAWkmkPYo2FxMW6xPreP0w4mGlABDpLuEqoxQS6S6BYilkYmhBBwDQYUgzzCxKIgrjVJFmFE1zQqtifVId1k9GPNXhEiKdEh5dEqtIpwRgFJAphhZ0AAAdhnSGGaIkIGWWKtIZRWs1HinWJ9fJeup9z8PRRZoS1mEBKNIcTwfNNrnDKaiLdZGf1GCr3R+drLzolxYUzUYaHm0JMf1hnKJou8IHmbcSu53q4FYPmIcpDu7ZyScfrVk7st5S6f4G59tt8TkO9xGvC/vZwSkrt8fD9U4fx+q4d1/x72N6duxXh/zZmVj5lQ4nBygR5Dhs60c4USzAkxWMbUGyjGUfLoVZy+Wg4l8wy58KpT20AG0TBcxuBdpnF7jIloPNvLy+f5ezrLM5/LXWljf2bl0uo/lN5GzZeH/hGTA+G52D2ZpxkPOyX+acdtmTDvyWH6E8uUczrmyWyaCMY6vmNuNMExkzFj6JlDGVtaAZMxhrlzEad1Of8dKOThlvSx1AlpPO7QUyqIbTq0e+MZ5dgYLcekviysZsDfIUl9uxl2VlLkW8CrEGCXTpc/B8WmjUsl70yBCymlOTKgGoAH2y07nx5ZbdbHr5KdQjaqCcqQpCozKAYMQdC6xr1EILjoo6fjtqJaFENEJnowZSqWufHfHS++8rCxylqfFagbfmAMp27dP33rZWYeAh0qmbOqGdUgOtyA9UzuY1gDTbMcN8d9SDMCiz9WdC0281tcuNnN5NDQQtm7Fj3KMm2qq0WnB/ytNGqo5kZP5PeTpIuwvZOXZCefNC10gE0ra8gRTdhvlHvUkmgG2lSZG8Y8KnvJEgizN6s3evH00UxQoIU31pd2eZTjAPKqVIRi6Wvv+RCSplHRCJPvv/8jFKRJTXKAWztXodh34l0Aouv+wdN2FImrSGrp5P8UjH51IqZbLgxcpuXuSDbJKl5XObW3v6vqm6WgSmRkELKLuhcs4Wxnbgue2m2FTXfN5d9NIQ8OPuKKAdRjppGUbJC29z+mZYdntwcqm1PdWjiZQvS2MmVExYF+WDy0oHol3nDwLjaphYrd6JN25zz3+D1YjJvnRmCxZb+TkYlETqsdnbkRvSmoOLm+8JXZT3zp8TU400OZXUdfe5AYSI/qySURH3vkai7PzrX2My1Hyo699DGFqE371+NFC6uKgjNvAu0xbV1raLTWNDFmW9ASwgQLPFQuGoVppgN+SLRqOBkJtiyWSo2u1as0Z6Eff39zHa5PWc9Nvodlmws9ZK1nn6UTVSll0Af/go4AUEu4R18lDLKRTtMoG2UffrZR/wxJJN6SES6JY+9+NHREFSkAi617/neaxNqyeeNNRNIEF0z9O+7BM1V+qTv2lFtdzcO6JmjfwRV69jM6hAm4qoIgOiSrAJqOYCooqsCaiqAqLKqAmobgKiCqUJqDICokqhCaj2AaKKnQmougEK+xdTQvwm1bSTqw8di0JreVqrhDh0kAwAD8mIp4dzS5oRgR4ShQyQGKSHyRVABkgYMkAikAGSgPQwuUbIAAlBBkgM0sPkpkAGSAAyQGKQDXBRxYVcIFY8ZylaH2KuJ0xbeupJF4p/PPTrfjVFURTn50Vml5woGh8XF6fXe1393v+IGBTMRPtEbAJjCX+uv8i8N/U+hUNBOekpx+/xrLqDww1d7tafsFbVZ4U9i44DQmPvTWhPy22SuKUc/lf6e0i3jEtMxPsocbal2PM3X/g3f7kJf0POoVoFirMXOmSOCYU7c+T9PMYFJ9yNXhwYo75/ur4ou0t91Gz74ZFzg90CXrify2nXfHbaqebiH0zxr9B30xkD/sDkaYcICYtnLFH8YmImxeFFYvNT7JEpd9HiZdM29uNAOwr+Vt/5qX3V4yWkja33EH5COPh1HSuftP+hAYwvaUPizaXqOx5otmB5+K2Lupibhy6pb6kY8x0UeDprt2XzzPHpIfvSMoH++jAXWGYuc4WjL6hKwemwV+M6vQH7G+HlKai5bBkuiu+qC27N/Wa+HnTyF0XXJcKXm+cq+Mv1XkXaQnjeqZ9dH4ZLfmCznPBWeePijaz3+HM3uvO9zjjHUjbVJ8S/KjoP+ML7XI2aMCNblvoNjHz4hOKXvzCxBW7lyqE7T0PhLVsFXgrcXE+6PAeeY64Q2DQ8zJri6cDhTiHUfYL/54w7hogN55w73SecfvaHc9Z3Gk47b63jLhp+DZ01xPDtCuMAbdbdPGT5T3+lWLFuFSQep3wgiNPxPTL6bu5NzvjTPUPxFiDLEEpwwYj5boTwXVuUj7g54Wy8av/7uwA=" ></div><div class="resizable aspect-ratio-container" style="height: 100%;">
 <div id="iframe_two-sum"></div></div>
 </details><hr /><br />
 
 </div>
 </details>
 </div>
+
+
 
 
 
